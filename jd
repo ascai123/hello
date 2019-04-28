@@ -1,0 +1,117 @@
+   /*头部样式*/
+#header{
+    background:#f7f7f7;
+}
+#header>.header_inner{
+    height:32px;
+}
+#header>.header_inner>.lf{
+    line-height:32px;
+}
+#header>.header_inner>.lf>img{
+    position:relative;
+    top:-10px;
+
+    transition:all 1s linear;
+}
+#header>.header_inner>.lf>img:hover{
+    transform:rotate(720deg);
+}
+
+#header>.header_inner>.rt>ul>li{
+    float:left;
+    line-height:32px;
+}
+#header>.header_inner>.rt>ul>li b{
+    border-left:1px solid #999;
+    margin:5px;
+}
+#header>.header_inner>.rt>ul>:nth-child(5) i{    /*会员俱乐部*/
+    padding:0 12px;
+    background:url(../images/vip.jpg) no-repeat 0px 5px;
+}
+#header>.header_inner>.rt>ul>:nth-child(7) i{    /*企业频道*/
+    padding:0 11px;
+    background:url(../images/dakehu.jpg) no-repeat 0px 5px;
+}
+#header>.header_inner>.rt>ul>:nth-child(9) i{        /*手机京东*/
+    padding:4px 7px;                        /*W128  H360*/
+    background:url(../images/iconlist_2.png) no-repeat -128px -357px;
+}
+#header>.header_inner>.rt>ul>:nth-child(9):hover i{    /*鼠标移入手机京东*/
+
+    background:url(../images/iconlist_2.png) no-repeat -128px -396px;
+}
+#header>.header_inner>.rt>ul>:nth-child(11){    /*客户服务*/
+    position:relative;
+    width:80px;
+    text-align:center;
+}
+#header>.header_inner>.rt>ul>:nth-child(11):hover i{
+    padding:0px 4px;
+    background:url(../images/jt_down.jpg) no-repeat 0px 8px;
+}
+#header>.header_inner>.rt>ul>:nth-child(11) i{
+    padding:0px 4px;
+    background:url(../images/jt_up.jpg) no-repeat 0px 8px;
+}
+#header>.header_inner>.rt>ul>:nth-child(11) ul{
+    position:absolute;
+    top:30px;
+    left:0px;
+    background:#fff;
+    border:1px solid #999;
+    display:none;
+    z-index:9999;
+}
+#header>.header_inner>.rt>ul>:nth-child(11):hover ul{
+    display:block;
+}
+#header>.header_inner>.rt>ul>:nth-child(11) ul li{
+    width:80px;
+}
+
+/*头部盒子搜索样式*/
+#header_box:before{
+    content:"";
+    display:table;
+}
+#header_box>.header_logo{
+    margin-top:8px;
+    margin-bottom:8px;
+    margin-right:30px;
+
+}
+#header_box>.header_search>.search_top{
+    margin-top:15px;
+    background:#e4393c;
+    width:501px;
+    height:28px;
+    padding:2px;
+}
+#header_box>.header_search>.search_top input{
+    border:none;
+    width:415px;
+    height:28px;
+}
+#header_box>.header_search>.search_top button{
+    border:none;
+    width:86px;
+    height:28px;
+    margin:0;
+    padding:0px;
+    background:#e4393c;
+    font-size:16px;
+    font-weight:600;
+    color:#fff;
+}
+#header_box>.header_search{
+    font-size:12px;
+}
+#header_box>.header_search p{
+    padding:5px;
+}
+#header_box>.header_search a{
+    font-size:12px;
+}
+--------------------- 
